@@ -1,11 +1,17 @@
 language: python
+
+branches:
+  only: 
+  - jtong/travisci
+
 python:
   - "2.7"
-  - "3.4"
-  - "3.5.5"
-  - "3.6"
-  - "pypy"
-  - "pypy3"
+#  - "3.4"
+#  - "3.5.5"
+#  - "3.6"
+#  - "pypy"
+#  - "pypy3"
+
 install: "pip install -r requirements/core.txt;pip install -r requirements/test.txt"
 before_script: "pep8"
 addons:
