@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/optimizely/python-sdk.svg?branch=master)](https://travis-ci.org/optimizely/python-sdk)
 [![Coverage Status](https://coveralls.io/repos/github/optimizely/python-sdk/badge.svg)](https://coveralls.io/github/optimizely/python-sdk)
 [![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdelikat%2Fpython-sdk.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdelikat%2Fpython-sdk?ref=badge_shield)
 
 This repository houses the Python SDK for Optimizely Full Stack.
 
@@ -87,3 +88,7 @@ nosetests tests.test_event:EventTest.test_dispatch
 ### Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdelikat%2Fpython-sdk.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdelikat%2Fpython-sdk?ref=badge_large)
